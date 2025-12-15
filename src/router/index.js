@@ -1,10 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import inicio from '../views/inicio.vue'
-import AventuraInicio from '../views/AventuraInicio.vue'
+import inicio from '../views/Inicio.vue'
 
 const routes = [
   { path: '/', component: inicio },
-  {path : '/aventura', component: AventuraInicio},
   
 ]
 
